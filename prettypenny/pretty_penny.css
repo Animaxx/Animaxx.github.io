@@ -1,0 +1,45 @@
+#site-nav li.selected {
+    border-bottom: solid 3px #333;
+}
+#site-nav li a {
+    color: #fff;
+    text-shadow: 0 1px 1px #fff, 0 0 0 #000;
+}
+#site-nav li.selected a {
+    color: #333;
+}
+#site-nav li a:hover {
+    color: #333;
+}
+
+section#Dashboard {
+    height: 600px;
+    background-image: -moz-radial-gradient(#2595CC, #334DB3);
+    background-image: -webkit-gradient(radial, center center, 0, center center, 220, from(#2595CC), to(#334DB3));
+    background-image: -webkit-radial-gradient(#2595CC, #334DB3);
+    background-image: radial-gradient(#2595CC, #334DB3);
+    background-size: 100% 100%;
+    color: #333;
+}
+
+
+section#MoreInfo {
+    height: 600px;
+    background-image: -moz-radial-gradient(#2595CC, #186185);
+    background-image: -webkit-gradient(radial, center center, 0, center center, 220, from(#2595CC), to(#186185));
+    background-image: -webkit-radial-gradient(#2595CC, #186185);
+    background-image: radial-gradient(#2595CC, #186185);
+    background-size: 100% 100%;
+    color: #333;
+}
+
+
+section#Download {
+    height: 600px;
+    background-image: -moz-radial-gradient(#2595CC, #186185);
+    background-image: -webkit-gradient(radial, center center, 0, center center, 220, from(#2595CC), to(#186185));
+    background-image: -webkit-radial-gradient(#2595CC, #186185);
+    background-image: radial-gradient(#2595CC, #186185);
+    background-size: 100% 100%;
+    color: #333;
+}

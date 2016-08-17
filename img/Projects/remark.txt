@@ -1,0 +1,99 @@
+1.	Travel Daily (Category: News) 
+https://itunes.apple.com/en/app/huan-qiu-lu-xun/id492905619?l=en&mt=8
+
+
+2.	H3M Chinese (Category: Music)
+Independently completed development
+https://itunes.apple.com/en/app/h3m-chinese-lai-dian-yin-le/id547474961?l=en&mt=8
+
+
+3.	H3M Korean (Category: Music)
+Independently completed development
+https://itunes.apple.com/en/app/h3m-korean/id549115593?l=en&mt=8
+
+4.	Juwai (Category: Lifestyle)
+Two developer team work, I’m handle define Data model, Network transfer and Internal Map(IOS 5: google map, IOS 6+ apple map).
+https://itunes.apple.com/en/app/juwai/id633912282?l=en&mt=8
+
+
+5.	Shang Magazine (Category: Lifestyle)
+Independently completed development
+https://itunes.apple.com/en/app/shang-pin-zhi-nan-niu-yue-ban/id537892145?l=en&mt=8
+
+
+6.	Shang Guide (Category: Lifestyle)
+Independently completed development
+https://itunes.apple.com/en/app/shang-guide/id561051653?l=en&mt=8
+
+
+7.	Chinese Headline News (Category: News)
+Independently completed development
+https://itunes.apple.com/en/app/chinese-headline-news/id467924825?l=en&mt=8
+
+
+8.	Korean Headline News (Category: News)
+Independently completed development
+https://itunes.apple.com/en/app/korean-headline-news/id491348678?l=en&mt=8
+
+
+
+9.	India Headline News (Category: News)
+Independently completed development
+https://itunes.apple.com/en/app/india-headline-news/id514866219?l=en&mt=8
+
+
+
+10.	Lutou(路透) Chinese News (Category: News)
+Independently completed development
+https://itunes.apple.com/en/app/lu-tou-xin-wen/id603378394?l=en&mt=8
+
+
+
+
+
+
+
+
+Asp.net Applications:
+1.	GPS for Buy
+http://gps4buy.com/
+
+
+2.	Paranello
+http://www.paranello.com/
+
+
+3.	Vateo
+http://www.vateo.com/
+
+
+4.	Robotsamba
+http://www.robotsamba.com/
+
+
+
+PHP Sites:
+1.	Juwai.com
+http://www.juwai.com/
+
+2.	Agent Juwai
+http://agentadmin.juwai.com/
+
+3. List juwai
+http://list.juwai.com/
+
+3.	Galaxy Macau
+http://www.galaxymacau.com/
+
+
+
+
+
+
+
+
+
+
+
+
+
