@@ -375,7 +375,7 @@ body.desktop section div.content {
     margin-left: 20px;
 }
 #site-nav li.selected {
-    border-bottom: solid 3px #186185;
+    border-bottom: solid 3px #155675;
 }
 #site-nav li a {
     padding: 0 1px;
@@ -391,7 +391,7 @@ body.desktop section div.content {
     transition: color .2s linear, font-weight .2s linear;
 }
 #site-nav li.selected a {
-    color: #186185;
+    color: #155675;
 }
 #site-nav li a:hover {
     color: #18759b;
@@ -719,6 +719,7 @@ section#home .bottomColor div.ItemB .words {
     border-top: none;
     border-bottom: #FFF double 3px;
     padding-bottom: 15px;
+    font-size: 20px;
 }
 section#home .bottomColor div.ItemC {
     background-color: rgb(249, 205, 173);
@@ -781,7 +782,7 @@ section#home .bottomColor div.ItemD .item2 {
 section#home .bottomColor div.ItemD .item2 .likeConver {
     padding-left: 25px;
     padding-top: 20%;
-    font-size: 18px;
+    font-size: 16px;
     color: #FFF;
     font-family: 'Graduate', cursive;
     width: 70px;
