@@ -172,12 +172,19 @@ $(document).ready(function() {
 				return false;
 			}); 
 			$("#black-background div.slider").unslider({
+				autoplay: true,
 				speed: 500,
-				delay: 5000,
+				delay: 2000,
 				complete: function() {},
 				keys: true,
 				dots: true,
 				fluid: false
+			});
+			$("#black-background #display-container div.shows").bind("click", function(l) {
+				l.preventDefault();
+				l.stopPropagation();
+				window.event.cancelBubble = true;
+				return
 			});
 			l.preventDefault();
 			l.stopPropagation();
@@ -195,12 +202,6 @@ $(document).ready(function() {
 			l.preventDefault();
 			l.stopPropagation();
 			return false
-		});
-		$("#black-background #display-container").bind("click", function(l) {
-			l.preventDefault();
-			l.stopPropagation();
-			window.event.cancelBubble = true;
-			return
 		});
 
 		//Don't preload
@@ -1426,7 +1427,7 @@ var Chart = function(d) {
 							N.lineTo(Y, S - Z * l(V.datasets[X].data[W], R, E) + (U.barStrokeWidth / 2));
 							N.lineTo(Y + L, S - Z * l(V.datasets[X].data[W], R, E) + (U.barStrokeWidth / 2));
 							N.lineTo(Y + L, S);
-							if (U.barShowStroke) {
+							if (U.barslidertroke) {
 								N.stroke()
 							}
 							N.closePath();
