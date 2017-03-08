@@ -1428,9 +1428,10 @@ section#herewego div.content_form div.first_column {
 section#herewego div.content_form div.second_column {
     float: left;
 }
-section#herewego div.content_form input[type=text] {
-    width: 400px;
-    height: 30px;
+section#herewego div.content_form input[type=text],
+section#herewego div.content_form input[type=email] {
+    width: 300px;
+    height: 40px;
     margin-top: 5px;
 }
 section#herewego div.content_form textarea {
@@ -1474,6 +1475,117 @@ section#herewego #googleForm_thanks {
 section#herewego #submit_area {
     display: none;
 }
+
+/**************************************/
+
+
+section#appSupport {
+    padding-top: 10px;
+    color: #666;
+}
+section#appSupport input, 
+section#appSupport textarea {
+    background: transparent;
+    border: solid 2px #000;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+    padding: 10px 20px;
+    color: #666;
+    resize: none;
+    margin-bottom: 12px;
+}
+
+section#appSupport h1{
+    margin: 20px;
+    color: #000;
+}
+section#appSupport h1 img {
+    width: 45px;
+    height: 45px;
+    margin-bottom: -8px;
+    border-radius: 8px;
+}
+section#appSupport div.explain{
+    margin: 20px;
+    margin-bottom: 50px;
+    font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+}
+section#appSupport div.content_form {
+    font-family: 'Graduate', cursive;
+    padding-top: 0px;
+}
+section#appSupport div.content_form div.line {
+    width: 100%;
+    height: 40px;
+    margin-left: 50px;
+    line-height: 40px;
+}
+section#appSupport div.content_form div.multiline {
+    width: 100%;
+    height: 140px;
+    margin-left: 50px;
+    line-height: 40px;
+}
+section#appSupport div.content_form div.first_column {
+    width: 235px;
+    float: left;
+}
+section#appSupport div.content_form div.second_column {
+    float: left;
+}
+section#appSupport div.content_form input[type=text],
+section#appSupport div.content_form input[type=email] {
+    width: 300px;
+    height: 40px;
+    margin-top: 5px;
+}
+section#appSupport div.content_form textarea {
+    width: 400px;
+    height: 130px;
+    margin-top: 5px;
+}
+section#appSupport div.content_form button {
+    width: 100px;
+    height: 30px;
+    color: #FFF;
+    background: rgb(252, 157, 154);
+}
+section#appSupport div.content_form .require {
+    color: #F00;
+}
+section#appSupport li.ss-choice-item {
+    display: inline;
+    list-style-type: none;
+}
+section#appSupport div.content_form {
+    margin-left: 20px;
+}
+section#appSupport input.ss-q-short {
+    margin-left: 20px;
+}
+section#appSupport textarea {
+    margin-left: 20px;
+}
+section#appSupport #ss-submit {
+    margin-left: 20px;
+}
+section#appSupport .ss-q-title {
+    margin-top: 10px;
+}
+section#appSupport #googleForm_thanks {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: none;
+}
+section#appSupport #submit_area {
+    display: none;
+}
+
+
 /****** Animation **********/
 
 @-webkit-keyframes bounce {
