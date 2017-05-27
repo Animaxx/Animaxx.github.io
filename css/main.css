@@ -478,6 +478,11 @@ body.desktop #black-background #display-container div.shows div.slider .dots li 
     -moz-transition: background .5s, opacity .5s;
     transition: background .5s, opacity .5s;
 }
+
+body.desktop #black-background #display-container div.shows div.slider ul li img {
+    max-height: 520px;
+    max-width: 710px;
+}
 body.desktop #black-background #display-container div.shows div.slider .dots li img {
     max-width: 100%;
 }
@@ -1256,7 +1261,7 @@ section#herewego {
     -moz-animation: move 700s linear infinite;
     -ms-animation: move 700s linear infinite;
     -o-animation: move 700s linear infinite;
-    animation: move 700s linear infinite; 
+    animation: move 700s linear infinite;
 }
     @-webkit-keyframes move {
         from {background-position:0% 0%;}
@@ -1274,7 +1279,7 @@ section#herewego {
         from {background-position:0% 0%;}
         to {background-position: 6000px 0%;}
     }
-section#herewego input, 
+section#herewego input,
 section#herewego textarea {
     background: transparent;
     border: solid 2px #FFF;
@@ -1483,7 +1488,7 @@ section#appSupport {
     padding-top: 10px;
     color: #666;
 }
-section#appSupport input, 
+section#appSupport input,
 section#appSupport textarea {
     background: transparent;
     border: solid 2px #000;
@@ -4746,7 +4751,7 @@ section#appSupport #submit_area {
     position: absolute;
     background: transparent;
     border: 6px solid transparent;
-    z-index: 1000001; 
+    z-index: 1000001;
     margin-left: -6px; }
   .hint:after, [data-hint]:after {
     content: attr(data-hint);

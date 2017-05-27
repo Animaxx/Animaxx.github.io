@@ -7,7 +7,7 @@ $(document).ready(function() {
 		$("#thumb-photo").addClass("bounceInLeft");
 		k();
 	});
-	
+
 	var f = $(window).height();
 	if (f < 500) {
 		f = 500
@@ -51,19 +51,19 @@ $(document).ready(function() {
 			if (_resumeChart == false) {
 				_resumeChart = document.getElementById("resume-chart").getContext("2d");
 				var l = [{
-					value: 21,
+					value: 25,
 					color: "#2FBFBF"
 				}, {
 					value: 11,
 					color: "#FFCDAD"
 				}, {
-					value: 22,
+					value: 20,
 					color: "#186185"
 				}, {
-					value: 18,
+					value: 17,
 					color: "#FC9D9A"
 				}, {
-					value: 20,
+					value: 19,
 					color: "#FE4365"
 				}, {
 					value: 8,
@@ -170,7 +170,7 @@ $(document).ready(function() {
 			$("#black-background #display-container a").on("click", function(o) {
 				window.open($(this).attr("href"), "_blank");
 				return false;
-			}); 
+			});
 			$("#black-background div.slider").unslider({
 				autoplay: true,
 				speed: 500,
@@ -330,12 +330,12 @@ $(document).ready(function() {
 	// 		$("#herewego").stop().ScrollTo();
 	// 		_goingToHerewegoPage = true;
 	// 		setTimeout(function() { _goingToHerewegoPage = false; }, 1000);
-	// 	} 
+	// 	}
 	// 	if ($("#site-nav ul li.selected a").attr("href") != "#herewego") {
 	// 		$("#herewego .content_form").mousemove(function() {});
 	// 	}
 	// })
-	
+
 	$(window).delay(1000).queue(function(k) {
 		window.console && window.console.info("**************************************************** \r\n Give me your suggestions by email me 'Animax.deng[At]gmail.com' \r\n Or visit me on https://www.linkedin.com/in/animaxdeng \r\n                                    -- Animax Deng \r\n**************************************************** \r\n ");
 		k()
@@ -350,14 +350,14 @@ var _autoResize = function() {
 		}
 		$("#page-body section").css("height", b);
 		$("section#works div.category div").eq(0).css("height", (parseInt($("section#works").css("height")) - 100) + "px");
-    
+
         // Home page resize
 		var a = parseInt($("section#home").css("height")) - 552;
 		if (a < 0) {
 			a = 0
 		}
 		$("section#home .bottomColor").css("margin-top", a + "px");
-        
+
         // about me page resize
 		var c = parseInt($("section#about").css("height")) - 600;
 		if (c < 0) {
@@ -1693,8 +1693,8 @@ var Chart = function(d) {
 var submitGoogleForm = function(o) {
 	$("#ss-form").animate({
 		height: "0.0"
-	}, 1000, function() { 
-		$(this).hide(); 
+	}, 1000, function() {
+		$(this).hide();
 		$("#googleForm_thanks").css("opacity", "0.00").show();
 		$("#googleForm_thanks").animate({
 			opacity: "1.00"
